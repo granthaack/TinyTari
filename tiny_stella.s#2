@@ -21753,6 +21753,7 @@ SMD type&lt;br&gt;</description>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SW3" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="SW_DIP-1" device="" package3d_urn="urn:adsk.eagle:package:26661/1" value="ON/OFF"/>
 </parts>
 <sheets>
 <sheet>
@@ -21884,19 +21885,20 @@ SMD type&lt;br&gt;</description>
 <instance part="GND3" gate="1" x="208.28" y="2.54" rot="MR0"/>
 <instance part="USB1" gate="G$1" x="-127" y="71.12"/>
 <instance part="GND24" gate="1" x="-116.84" y="58.42"/>
-<instance part="P+23" gate="1" x="-88.9" y="81.28" rot="R270"/>
-<instance part="C12" gate="G$1" x="-104.14" y="76.2"/>
-<instance part="GND25" gate="1" x="-104.14" y="66.04"/>
-<instance part="C13" gate="G$1" x="-96.52" y="76.2"/>
+<instance part="P+23" gate="1" x="-73.66" y="81.28" rot="R270"/>
+<instance part="C12" gate="G$1" x="-91.44" y="76.2"/>
+<instance part="GND25" gate="1" x="-91.44" y="66.04"/>
+<instance part="C13" gate="G$1" x="-86.36" y="76.2"/>
 <instance part="C14" gate="G$1" x="-20.32" y="71.12"/>
 <instance part="C15" gate="G$1" x="35.56" y="99.06" rot="MR0"/>
 <instance part="C16" gate="G$1" x="144.78" y="104.14" rot="MR0"/>
 <instance part="C17" gate="G$1" x="-71.12" y="10.16" rot="MR0"/>
 <instance part="GND26" gate="1" x="-71.12" y="0"/>
-<instance part="GND27" gate="1" x="-96.52" y="66.04"/>
+<instance part="GND27" gate="1" x="-86.36" y="66.04"/>
 <instance part="GND28" gate="1" x="35.56" y="88.9"/>
 <instance part="GND29" gate="1" x="-20.32" y="60.96"/>
 <instance part="GND30" gate="1" x="144.78" y="93.98" rot="MR0"/>
+<instance part="SW3" gate="G$1" x="-104.14" y="81.28" rot="MR0"/>
 </instances>
 <busses>
 <bus name="DATA:D1,D2,D3,D4,D5,D6,D7,D8">
@@ -22173,17 +22175,17 @@ SMD type&lt;br&gt;</description>
 <pinref part="P+22" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="USB1" gate="G$1" pin="VBUS"/>
-<wire x1="-116.84" y1="81.28" x2="-104.14" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="P+23" gate="1" pin="+5V"/>
 <pinref part="C12" gate="G$1" pin="+"/>
-<wire x1="-104.14" y1="81.28" x2="-96.52" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-96.52" y1="81.28" x2="-91.44" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-104.14" y1="78.74" x2="-104.14" y2="81.28" width="0.1524" layer="91"/>
-<junction x="-104.14" y="81.28"/>
+<wire x1="-91.44" y1="81.28" x2="-86.36" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="81.28" x2="-76.2" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="78.74" x2="-91.44" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="-96.52" y1="78.74" x2="-96.52" y2="81.28" width="0.1524" layer="91"/>
-<junction x="-96.52" y="81.28"/>
+<wire x1="-86.36" y1="78.74" x2="-86.36" y2="81.28" width="0.1524" layer="91"/>
+<junction x="-86.36" y="81.28"/>
+<pinref part="SW3" gate="G$1" pin="2"/>
+<wire x1="-96.52" y1="81.28" x2="-91.44" y2="81.28" width="0.1524" layer="91"/>
+<junction x="-91.44" y="81.28"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -22384,7 +22386,7 @@ SMD type&lt;br&gt;</description>
 </segment>
 <segment>
 <pinref part="C12" gate="G$1" pin="-"/>
-<wire x1="-104.14" y1="71.12" x2="-104.14" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="71.12" x2="-91.44" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -22394,7 +22396,7 @@ SMD type&lt;br&gt;</description>
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="-96.52" y1="71.12" x2="-96.52" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="71.12" x2="-86.36" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="GND27" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -23419,6 +23421,13 @@ SMD type&lt;br&gt;</description>
 <junction x="208.28" y="22.86"/>
 <pinref part="AUDIO" gate="B" pin="1"/>
 <wire x1="208.28" y1="22.86" x2="208.28" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VBUS" class="0">
+<segment>
+<pinref part="USB1" gate="G$1" pin="VBUS"/>
+<pinref part="SW3" gate="G$1" pin="1"/>
+<wire x1="-116.84" y1="81.28" x2="-111.76" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
