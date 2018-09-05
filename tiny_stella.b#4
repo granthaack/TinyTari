@@ -564,6 +564,8 @@ controller input. It's considered by many to be the soul of the system</text>
 <text x="68.707" y="4.572" size="0.8128" layer="25" font="vector" ratio="20">GND</text>
 <dimension x1="99.695" y1="3.175" x2="0" y2="3.175" x3="49.8475" y3="-8.128" textsize="1.778" layer="48"/>
 <dimension x1="96.52" y1="0" x2="96.52" y2="85.09" x3="112.014" y3="42.545" textsize="1.778" layer="48"/>
+<text x="90.7796" y="77.6224" size="1.778" layer="25" font="vector">G</text>
+<text x="90.7796" y="76.7334" size="1.778" layer="25" font="vector">H</text>
 </plain>
 <libraries>
 <library name="tiny_stella">
