@@ -22273,7 +22273,7 @@ W = angled&lt;p&gt;
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="COLOR_ADJ" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="3223G" package3d_urn="urn:adsk.eagle:package:22722/1" value="500k"/>
+<part name="COLOR" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="3223G" package3d_urn="urn:adsk.eagle:package:22722/1" value="500k"/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -22295,7 +22295,7 @@ W = angled&lt;p&gt;
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="JOY_RGT" library="con-subd" library_urn="urn:adsk.eagle:library:189" deviceset="F09" device="HP" package3d_urn="urn:adsk.eagle:package:10232/1"/>
+<part name="RIGHT" library="con-subd" library_urn="urn:adsk.eagle:library:189" deviceset="F09" device="HP" package3d_urn="urn:adsk.eagle:package:10232/1"/>
 <part name="JOY_LFT" library="con-subd" library_urn="urn:adsk.eagle:library:189" deviceset="F09" device="HP" package3d_urn="urn:adsk.eagle:package:10232/1"/>
 <part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -22311,7 +22311,7 @@ W = angled&lt;p&gt;
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:29919/2" technology="MMBT3904LT1" value="2N3904"/>
 <part name="T2" library="User-Submitted" library_urn="urn:adsk.eagle:library:536" deviceset="TRANSISTOR_PNP" device="PMBT3906" package3d_urn="urn:adsk.eagle:package:40256/1" value="PN3906"/>
-<part name="BRIGHTNESS" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="3223G" package3d_urn="urn:adsk.eagle:package:22722/1" value="500k"/>
+<part name="BRIGHT" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="3223G" package3d_urn="urn:adsk.eagle:package:22722/1" value="500k"/>
 <part name="R19" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="1k"/>
 <part name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="3.3k"/>
 <part name="R21" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="1k"/>
@@ -22429,7 +22429,7 @@ W = angled&lt;p&gt;
 <instance part="GND5" gate="1" x="182.88" y="132.08" rot="MR0"/>
 <instance part="P+10" gate="1" x="149.86" y="111.76" rot="MR0"/>
 <instance part="GND8" gate="1" x="149.86" y="-35.56" rot="MR0"/>
-<instance part="COLOR_ADJ" gate="G$1" x="96.52" y="33.02" rot="MR180"/>
+<instance part="COLOR" gate="G$1" x="96.52" y="33.02" rot="MR180"/>
 <instance part="P+11" gate="1" x="101.6" y="45.72" rot="MR90"/>
 <instance part="GND13" gate="1" x="93.98" y="20.32" rot="MR90"/>
 <instance part="P+12" gate="1" x="-25.4" y="78.74"/>
@@ -22474,7 +22474,7 @@ W = angled&lt;p&gt;
 <instance part="GND19" gate="1" x="-119.38" y="-17.78"/>
 <instance part="GND20" gate="1" x="-81.28" y="17.78" rot="R90"/>
 <instance part="P+15" gate="1" x="-63.5" y="12.7" rot="R270"/>
-<instance part="JOY_RGT" gate="G$1" x="236.22" y="137.16" rot="MR0"/>
+<instance part="RIGHT" gate="G$1" x="236.22" y="137.16" rot="MR0"/>
 <instance part="JOY_LFT" gate="G$1" x="236.22" y="96.52" rot="MR0"/>
 <instance part="P+16" gate="1" x="220.98" y="96.52" rot="MR270"/>
 <instance part="P+17" gate="1" x="220.98" y="137.16" rot="MR270"/>
@@ -22490,7 +22490,7 @@ W = angled&lt;p&gt;
 <instance part="GND12" gate="1" x="223.52" y="76.2" rot="MR0"/>
 <instance part="T1" gate="G$1" x="287.02" y="68.58"/>
 <instance part="T2" gate="G$1" x="299.72" y="68.58"/>
-<instance part="BRIGHTNESS" gate="G$1" x="269.24" y="68.58" rot="MR0"/>
+<instance part="BRIGHT" gate="G$1" x="269.24" y="68.58" rot="MR0"/>
 <instance part="R19" gate="G$1" x="254" y="68.58" rot="MR0"/>
 <instance part="R20" gate="G$1" x="279.4" y="83.82" rot="MR270"/>
 <instance part="R21" gate="G$1" x="279.4" y="55.88" rot="MR270"/>
@@ -22766,7 +22766,7 @@ W = angled&lt;p&gt;
 <junction x="149.86" y="106.68"/>
 </segment>
 <segment>
-<pinref part="COLOR_ADJ" gate="G$1" pin="A"/>
+<pinref part="COLOR" gate="G$1" pin="A"/>
 <pinref part="P+11" gate="1" pin="+5V"/>
 <wire x1="96.52" y1="40.64" x2="96.52" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="45.72" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
@@ -22804,7 +22804,7 @@ W = angled&lt;p&gt;
 <junction x="-71.12" y="12.7"/>
 </segment>
 <segment>
-<pinref part="JOY_RGT" gate="G$1" pin="7"/>
+<pinref part="RIGHT" gate="G$1" pin="7"/>
 <pinref part="P+17" gate="1" pin="+5V"/>
 <wire x1="228.6" y1="137.16" x2="223.52" y2="137.16" width="0.1524" layer="91"/>
 </segment>
@@ -22938,7 +22938,7 @@ W = angled&lt;p&gt;
 <wire x1="149.86" y1="-33.02" x2="149.86" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="COLOR_ADJ" gate="G$1" pin="E"/>
+<pinref part="COLOR" gate="G$1" pin="E"/>
 <wire x1="96.52" y1="22.86" x2="96.52" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="96.52" y1="20.32" x2="96.52" y2="22.86" width="0.1524" layer="91"/>
@@ -23004,7 +23004,7 @@ W = angled&lt;p&gt;
 <wire x1="-86.36" y1="17.78" x2="-83.82" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JOY_RGT" gate="G$1" pin="8"/>
+<pinref part="RIGHT" gate="G$1" pin="8"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="228.6" y1="134.62" x2="218.44" y2="134.62" width="0.1524" layer="91"/>
 </segment>
@@ -23164,7 +23164,7 @@ W = angled&lt;p&gt;
 <junction x="193.04" y="139.7"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="134.62" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="JOY_RGT" gate="G$1" pin="6"/>
+<pinref part="RIGHT" gate="G$1" pin="6"/>
 <wire x1="228.6" y1="139.7" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -23206,7 +23206,7 @@ W = angled&lt;p&gt;
 <label x="180.34" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JOY_RGT" gate="G$1" pin="9"/>
+<pinref part="RIGHT" gate="G$1" pin="9"/>
 <label x="223.52" y="132.08" size="1.778" layer="95" rot="R180"/>
 <wire x1="228.6" y1="132.08" x2="226.06" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
@@ -23224,7 +23224,7 @@ W = angled&lt;p&gt;
 <label x="180.34" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JOY_RGT" gate="G$1" pin="5"/>
+<pinref part="RIGHT" gate="G$1" pin="5"/>
 <wire x1="243.84" y1="132.08" x2="246.38" y2="132.08" width="0.1524" layer="91"/>
 <label x="248.92" y="132.08" size="1.778" layer="95"/>
 <pinref part="C6" gate="G$1" pin="1"/>
@@ -23508,7 +23508,7 @@ W = angled&lt;p&gt;
 <net name="N$17" class="0">
 <segment>
 <pinref part="TIA" gate="G$1" pin="DEL"/>
-<pinref part="COLOR_ADJ" gate="G$1" pin="S"/>
+<pinref part="COLOR" gate="G$1" pin="S"/>
 <wire x1="132.08" y1="33.02" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -23954,7 +23954,7 @@ W = angled&lt;p&gt;
 <label x="66.04" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JOY_RGT" gate="G$1" pin="4"/>
+<pinref part="RIGHT" gate="G$1" pin="4"/>
 <wire x1="243.84" y1="134.62" x2="248.92" y2="134.62" width="0.1524" layer="91"/>
 <label x="248.92" y="134.62" size="1.778" layer="95"/>
 </segment>
@@ -23966,7 +23966,7 @@ W = angled&lt;p&gt;
 <label x="66.04" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JOY_RGT" gate="G$1" pin="3"/>
+<pinref part="RIGHT" gate="G$1" pin="3"/>
 <wire x1="243.84" y1="137.16" x2="248.92" y2="137.16" width="0.1524" layer="91"/>
 <label x="248.92" y="137.16" size="1.778" layer="95"/>
 </segment>
@@ -23978,7 +23978,7 @@ W = angled&lt;p&gt;
 <label x="66.04" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JOY_RGT" gate="G$1" pin="2"/>
+<pinref part="RIGHT" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="139.7" x2="248.92" y2="139.7" width="0.1524" layer="91"/>
 <label x="248.92" y="139.7" size="1.778" layer="95"/>
 </segment>
@@ -23990,7 +23990,7 @@ W = angled&lt;p&gt;
 <label x="66.04" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JOY_RGT" gate="G$1" pin="1"/>
+<pinref part="RIGHT" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="142.24" x2="248.92" y2="142.24" width="0.1524" layer="91"/>
 <label x="248.92" y="142.24" size="1.778" layer="95"/>
 </segment>
@@ -24084,7 +24084,7 @@ W = angled&lt;p&gt;
 <junction x="279.4" y="68.58"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="279.4" y1="68.58" x2="279.4" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="BRIGHTNESS" gate="G$1" pin="A"/>
+<pinref part="BRIGHT" gate="G$1" pin="A"/>
 <wire x1="269.24" y1="60.96" x2="274.32" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="60.96" x2="274.32" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="68.58" x2="279.4" y2="68.58" width="0.1524" layer="91"/>
@@ -24128,7 +24128,7 @@ W = angled&lt;p&gt;
 <net name="N$13" class="0">
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
-<pinref part="BRIGHTNESS" gate="G$1" pin="S"/>
+<pinref part="BRIGHT" gate="G$1" pin="S"/>
 <wire x1="259.08" y1="68.58" x2="264.16" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="60.96" x2="264.16" y2="68.58" width="0.1524" layer="91"/>
 <junction x="264.16" y="68.58"/>
