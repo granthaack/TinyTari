@@ -115,55 +115,55 @@
 </packages>
 <symbols>
 <symbol name="TIA">
-<pin name="VSS" x="-27.94" y="22.86" length="middle"/>
-<pin name="SYNC" x="-27.94" y="17.78" length="middle"/>
-<pin name="!RDY" x="-27.94" y="12.7" length="middle"/>
-<pin name="PHI_O" x="-27.94" y="7.62" length="middle"/>
-<pin name="LUM1" x="-27.94" y="2.54" length="middle"/>
-<pin name="BLK" x="-27.94" y="-2.54" length="middle"/>
-<pin name="LUM2" x="-27.94" y="-7.62" length="middle"/>
-<pin name="LUM0" x="-27.94" y="-12.7" length="middle"/>
-<pin name="COL" x="-27.94" y="-17.78" length="middle"/>
-<pin name="DEL" x="-27.94" y="-22.86" length="middle"/>
-<pin name="OSC" x="-27.94" y="-27.94" length="middle"/>
-<pin name="AUD1" x="-27.94" y="-33.02" length="middle"/>
-<pin name="AUD0" x="-27.94" y="-38.1" length="middle"/>
-<pin name="D0" x="-27.94" y="-43.18" length="middle"/>
-<pin name="D1" x="-27.94" y="-48.26" length="middle"/>
-<pin name="D2" x="-27.94" y="-53.34" length="middle"/>
-<pin name="D3" x="-27.94" y="-58.42" length="middle"/>
-<pin name="D4" x="-27.94" y="-63.5" length="middle"/>
-<pin name="D5" x="-27.94" y="-68.58" length="middle"/>
-<pin name="VCC" x="-27.94" y="-73.66" length="middle"/>
-<pin name="!CS3" x="5.08" y="-73.66" length="middle" rot="R180"/>
-<pin name="!CS2" x="5.08" y="-68.58" length="middle" rot="R180"/>
-<pin name="CS1" x="5.08" y="-63.5" length="middle" rot="R180"/>
-<pin name="!CS0" x="5.08" y="-58.42" length="middle" rot="R180"/>
-<pin name="R/!W" x="5.08" y="-53.34" length="middle" rot="R180"/>
-<pin name="PHI_2" x="5.08" y="-48.26" length="middle" rot="R180"/>
-<pin name="A5" x="5.08" y="-43.18" length="middle" rot="R180"/>
-<pin name="A4" x="5.08" y="-38.1" length="middle" rot="R180"/>
-<pin name="A3" x="5.08" y="-33.02" length="middle" rot="R180"/>
-<pin name="A2" x="5.08" y="-27.94" length="middle" rot="R180"/>
-<pin name="A1" x="5.08" y="-22.86" length="middle" rot="R180"/>
-<pin name="A0" x="5.08" y="-17.78" length="middle" rot="R180"/>
-<pin name="D6" x="5.08" y="-12.7" length="middle" rot="R180"/>
-<pin name="D7" x="5.08" y="-7.62" length="middle" rot="R180"/>
-<pin name="I5" x="5.08" y="-2.54" length="middle" rot="R180"/>
-<pin name="I4" x="5.08" y="2.54" length="middle" rot="R180"/>
-<pin name="I3" x="5.08" y="7.62" length="middle" rot="R180"/>
-<pin name="I2" x="5.08" y="12.7" length="middle" rot="R180"/>
-<pin name="I1" x="5.08" y="17.78" length="middle" rot="R180"/>
-<pin name="I0" x="5.08" y="22.86" length="middle" rot="R180"/>
-<text x="-12.7" y="-71.12" size="1.778" layer="95" align="center">ATARI
+<pin name="VSS" x="-17.78" y="48.26" length="middle"/>
+<pin name="SYNC" x="-17.78" y="43.18" length="middle"/>
+<pin name="!RDY" x="-17.78" y="38.1" length="middle"/>
+<pin name="PHI_O" x="-17.78" y="33.02" length="middle"/>
+<pin name="LUM1" x="-17.78" y="27.94" length="middle"/>
+<pin name="BLK" x="-17.78" y="22.86" length="middle"/>
+<pin name="LUM2" x="-17.78" y="17.78" length="middle"/>
+<pin name="LUM0" x="-17.78" y="12.7" length="middle"/>
+<pin name="COL" x="-17.78" y="7.62" length="middle"/>
+<pin name="DEL" x="-17.78" y="2.54" length="middle"/>
+<pin name="OSC" x="-17.78" y="-2.54" length="middle"/>
+<pin name="AUD1" x="-17.78" y="-7.62" length="middle"/>
+<pin name="AUD0" x="-17.78" y="-12.7" length="middle"/>
+<pin name="D0" x="-17.78" y="-17.78" length="middle"/>
+<pin name="D1" x="-17.78" y="-22.86" length="middle"/>
+<pin name="D2" x="-17.78" y="-27.94" length="middle"/>
+<pin name="D3" x="-17.78" y="-33.02" length="middle"/>
+<pin name="D4" x="-17.78" y="-38.1" length="middle"/>
+<pin name="D5" x="-17.78" y="-43.18" length="middle"/>
+<pin name="VCC" x="-17.78" y="-48.26" length="middle"/>
+<pin name="!CS3" x="17.78" y="-48.26" length="middle" rot="R180"/>
+<pin name="!CS2" x="17.78" y="-43.18" length="middle" rot="R180"/>
+<pin name="CS1" x="17.78" y="-38.1" length="middle" rot="R180"/>
+<pin name="!CS0" x="17.78" y="-33.02" length="middle" rot="R180"/>
+<pin name="R/!W" x="17.78" y="-27.94" length="middle" rot="R180"/>
+<pin name="PHI_2" x="17.78" y="-22.86" length="middle" rot="R180"/>
+<pin name="A5" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="A4" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="A3" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="A2" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="A1" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="A0" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="D6" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="D7" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="I5" x="17.78" y="22.86" length="middle" rot="R180"/>
+<pin name="I4" x="17.78" y="27.94" length="middle" rot="R180"/>
+<pin name="I3" x="17.78" y="33.02" length="middle" rot="R180"/>
+<pin name="I2" x="17.78" y="38.1" length="middle" rot="R180"/>
+<pin name="I1" x="17.78" y="43.18" length="middle" rot="R180"/>
+<pin name="I0" x="17.78" y="48.26" length="middle" rot="R180"/>
+<text x="0" y="-50.8" size="1.778" layer="94" align="center">ATARI
 TIA</text>
-<wire x1="-22.86" y1="22.86" x2="-22.86" y2="-78.74" width="0.254" layer="94"/>
-<wire x1="-22.86" y1="-78.74" x2="0" y2="-78.74" width="0.254" layer="94"/>
-<wire x1="0" y1="-78.74" x2="0" y2="22.86" width="0.254" layer="94"/>
-<wire x1="0" y1="22.86" x2="2.54" y2="22.86" width="0.254" layer="94"/>
-<wire x1="-22.86" y1="22.86" x2="-22.86" y2="27.94" width="0.254" layer="94"/>
-<wire x1="-22.86" y1="27.94" x2="0" y2="27.94" width="0.254" layer="94"/>
-<wire x1="0" y1="27.94" x2="0" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="48.26" x2="-12.7" y2="-53.34" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-53.34" x2="12.7" y2="-53.34" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-53.34" x2="12.7" y2="48.26" width="0.254" layer="94"/>
+<wire x1="12.7" y1="48.26" x2="15.24" y2="48.26" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="48.26" x2="-12.7" y2="53.34" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="53.34" x2="12.7" y2="53.34" width="0.254" layer="94"/>
+<wire x1="12.7" y1="53.34" x2="12.7" y2="48.26" width="0.254" layer="94"/>
 </symbol>
 <symbol name="6507">
 <pin name="!RES" x="-15.24" y="33.02" length="middle"/>

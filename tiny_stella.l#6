@@ -399,6 +399,60 @@ TIA</text>
 </device>
 </devices>
 </deviceset>
+<deviceset name="ATARI_TIA">
+<gates>
+<gate name="G$1" symbol="TIA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL40">
+<connects>
+<connect gate="G$1" pin="!CS0" pad="24"/>
+<connect gate="G$1" pin="!CS2" pad="22"/>
+<connect gate="G$1" pin="!CS3" pad="21"/>
+<connect gate="G$1" pin="!RDY" pad="3"/>
+<connect gate="G$1" pin="A0" pad="32"/>
+<connect gate="G$1" pin="A1" pad="31"/>
+<connect gate="G$1" pin="A2" pad="30"/>
+<connect gate="G$1" pin="A3" pad="29"/>
+<connect gate="G$1" pin="A4" pad="28"/>
+<connect gate="G$1" pin="A5" pad="27"/>
+<connect gate="G$1" pin="AUD0" pad="13"/>
+<connect gate="G$1" pin="AUD1" pad="12"/>
+<connect gate="G$1" pin="BLK" pad="6"/>
+<connect gate="G$1" pin="COL" pad="9"/>
+<connect gate="G$1" pin="CS1" pad="23"/>
+<connect gate="G$1" pin="D0" pad="14"/>
+<connect gate="G$1" pin="D1" pad="15"/>
+<connect gate="G$1" pin="D2" pad="16"/>
+<connect gate="G$1" pin="D3" pad="17"/>
+<connect gate="G$1" pin="D4" pad="18"/>
+<connect gate="G$1" pin="D5" pad="19"/>
+<connect gate="G$1" pin="D6" pad="33"/>
+<connect gate="G$1" pin="D7" pad="34"/>
+<connect gate="G$1" pin="DEL" pad="10"/>
+<connect gate="G$1" pin="I0" pad="40"/>
+<connect gate="G$1" pin="I1" pad="39"/>
+<connect gate="G$1" pin="I2" pad="38"/>
+<connect gate="G$1" pin="I3" pad="37"/>
+<connect gate="G$1" pin="I4" pad="36"/>
+<connect gate="G$1" pin="I5" pad="35"/>
+<connect gate="G$1" pin="LUM0" pad="8"/>
+<connect gate="G$1" pin="LUM1" pad="5"/>
+<connect gate="G$1" pin="LUM2" pad="7"/>
+<connect gate="G$1" pin="OSC" pad="11"/>
+<connect gate="G$1" pin="PHI_2" pad="26"/>
+<connect gate="G$1" pin="PHI_O" pad="4"/>
+<connect gate="G$1" pin="R/!W" pad="25"/>
+<connect gate="G$1" pin="SYNC" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="20"/>
+<connect gate="G$1" pin="VSS" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
