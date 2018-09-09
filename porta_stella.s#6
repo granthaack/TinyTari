@@ -22967,8 +22967,8 @@ W = angled&lt;p&gt;
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="S3" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM-KIT" package3d_urn="urn:adsk.eagle:package:40170/1" value="START"/>
-<part name="S4" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM-KIT" package3d_urn="urn:adsk.eagle:package:40170/1" value="SELECT"/>
+<part name="S3" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-6.0X3.5MM" package3d_urn="urn:adsk.eagle:package:40165/1" value="START"/>
+<part name="S4" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-6.0X3.5MM" package3d_urn="urn:adsk.eagle:package:40165/1" value="SELECT"/>
 <part name="C10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="10nF"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1" value="COLOR/BW"/>
@@ -22981,8 +22981,6 @@ W = angled&lt;p&gt;
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="68nF"/>
-<part name="C9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="68nF"/>
-<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:29919/2" technology="MMBT3904LT1" value="2N3904"/>
 <part name="T2" library="User-Submitted" library_urn="urn:adsk.eagle:library:536" deviceset="TRANSISTOR_PNP" device="PMBT3906" package3d_urn="urn:adsk.eagle:package:40256/1" value="PN3906"/>
@@ -23047,7 +23045,6 @@ W = angled&lt;p&gt;
 <part name="R34" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="1k"/>
 <part name="PAUSE" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="SW_DIP-1" device="" package3d_urn="urn:adsk.eagle:package:26661/1" value="ON/OFF"/>
 <part name="D3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="DIODE_E-" device="" package3d_urn="urn:adsk.eagle:package:13312/1"/>
-<part name="C21" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="100nF"/>
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -23062,12 +23059,17 @@ W = angled&lt;p&gt;
 <part name="S2" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2MM" package3d_urn="urn:adsk.eagle:package:40167/1" value="L_FIRE"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="4,16O1,6" package3d_urn="urn:adsk.eagle:package:30843/1" value="AUD"/>
-<part name="PAD2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="4,16O1,6" package3d_urn="urn:adsk.eagle:package:30843/1" value="CVID"/>
+<part name="AUD" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="2,54/1,1" package3d_urn="urn:adsk.eagle:package:30836/1" value="AUD"/>
+<part name="CVID" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="2,54/1,1" package3d_urn="urn:adsk.eagle:package:30836/1" value="CVID"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SV3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA10-1" device="" package3d_urn="urn:adsk.eagle:package:8346/1"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R35" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="EVU" device="A" package3d_urn="urn:adsk.eagle:package:22730/1" technology="F2"/>
+<part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA10-1" device="" package3d_urn="urn:adsk.eagle:package:8346/1"/>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND_A" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="2,54/1,1" package3d_urn="urn:adsk.eagle:package:30836/1" value="GND_A"/>
+<part name="GND_V" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="2,54/1,1" package3d_urn="urn:adsk.eagle:package:30836/1" value="GND_V"/>
+<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23150,8 +23152,6 @@ W = angled&lt;p&gt;
 <instance part="GND20" gate="1" x="-81.28" y="17.78" rot="R90"/>
 <instance part="P+15" gate="1" x="-63.5" y="12.7" rot="R270"/>
 <instance part="C8" gate="G$1" x="233.68" y="88.9" rot="MR0"/>
-<instance part="C9" gate="G$1" x="246.38" y="88.9" rot="MR0"/>
-<instance part="GND11" gate="1" x="246.38" y="78.74" rot="MR0"/>
 <instance part="GND12" gate="1" x="233.68" y="78.74" rot="MR0"/>
 <instance part="T1" gate="G$1" x="287.02" y="68.58"/>
 <instance part="T2" gate="G$1" x="299.72" y="68.58"/>
@@ -23219,7 +23219,6 @@ W = angled&lt;p&gt;
 <instance part="R34" gate="G$1" x="-162.56" y="142.24" rot="MR270"/>
 <instance part="PAUSE" gate="G$1" x="-185.42" y="137.16" rot="MR0"/>
 <instance part="D3" gate="G$1" x="-149.86" y="137.16" rot="R270"/>
-<instance part="C21" gate="G$1" x="-147.32" y="129.54"/>
 <instance part="P+13" gate="1" x="-55.88" y="139.7"/>
 <instance part="P+27" gate="1" x="-162.56" y="152.4"/>
 <instance part="GND35" gate="1" x="-198.12" y="127"/>
@@ -23234,12 +23233,17 @@ W = angled&lt;p&gt;
 <instance part="S2" gate="G$1" x="337.82" y="119.38"/>
 <instance part="GND6" gate="1" x="248.92" y="99.06" rot="MR0"/>
 <instance part="GND40" gate="1" x="347.98" y="114.3" rot="MR0"/>
-<instance part="PAD1" gate="G$1" x="208.28" y="7.62" rot="R90"/>
-<instance part="PAD2" gate="G$1" x="312.42" y="60.96" rot="R180"/>
+<instance part="AUD" gate="G$1" x="208.28" y="7.62" rot="R90"/>
+<instance part="CVID" gate="G$1" x="312.42" y="60.96" rot="R180"/>
 <instance part="GND2" gate="1" x="297.18" y="116.84" rot="MR0"/>
 <instance part="SV3" gate="1" x="284.48" y="132.08"/>
 <instance part="GND3" gate="1" x="347.98" y="86.36" rot="MR0"/>
 <instance part="R35" gate="G$1" x="345.44" y="99.06" rot="R270"/>
+<instance part="SV2" gate="1" x="276.86" y="132.08" rot="MR0"/>
+<instance part="GND5" gate="1" x="264.16" y="116.84" rot="MR0"/>
+<instance part="GND_A" gate="G$1" x="330.2" y="55.88" rot="R180"/>
+<instance part="GND_V" gate="G$1" x="342.9" y="55.88" rot="R180"/>
+<instance part="GND7" gate="1" x="320.04" y="43.18" rot="MR0"/>
 </instances>
 <busses>
 <bus name="DATA:D1,D2,D3,D4,D5,D6,D7,D8">
@@ -23650,11 +23654,6 @@ W = angled&lt;p&gt;
 <wire x1="-86.36" y1="17.78" x2="-83.82" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C9" gate="G$1" pin="2"/>
-<pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="246.38" y1="81.28" x2="246.38" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="233.68" y1="81.28" x2="233.68" y2="83.82" width="0.1524" layer="91"/>
@@ -23748,7 +23747,6 @@ W = angled&lt;p&gt;
 <wire x1="-198.12" y1="137.16" x2="-198.12" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C21" gate="G$1" pin="2"/>
 <pinref part="GND36" gate="1" pin="GND"/>
 <wire x1="-147.32" y1="124.46" x2="-147.32" y2="121.92" width="0.1524" layer="91"/>
 </segment>
@@ -23795,6 +23793,23 @@ W = angled&lt;p&gt;
 <pinref part="R35" gate="G$1" pin="S"/>
 <wire x1="347.98" y1="91.44" x2="345.44" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="91.44" x2="345.44" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="1" pin="1"/>
+<wire x1="269.24" y1="121.92" x2="264.16" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="121.92" x2="264.16" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND_A" gate="G$1" pin="P"/>
+<wire x1="327.66" y1="55.88" x2="320.04" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="55.88" x2="320.04" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="GND_V" gate="G$1" pin="P"/>
+<wire x1="320.04" y1="50.8" x2="320.04" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="55.88" x2="340.36" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="50.8" x2="320.04" y2="50.8" width="0.1524" layer="91"/>
+<junction x="320.04" y="50.8"/>
+<pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -23856,6 +23871,11 @@ W = angled&lt;p&gt;
 <pinref part="R35" gate="G$1" pin="A"/>
 <wire x1="340.36" y1="96.52" x2="340.36" y2="99.06" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SV2" gate="1" pin="6"/>
+<wire x1="269.24" y1="134.62" x2="264.16" y2="134.62" width="0.1524" layer="91"/>
+<label x="264.16" y="134.62" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="LFT_PADDLE_B" class="0">
 <segment>
@@ -23866,16 +23886,14 @@ W = angled&lt;p&gt;
 <label x="180.34" y="2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="243.84" y1="91.44" x2="246.38" y2="91.44" width="0.1524" layer="91"/>
-<label x="248.92" y="91.44" size="1.778" layer="95"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="246.38" y1="91.44" x2="248.92" y2="91.44" width="0.1524" layer="91"/>
-<junction x="246.38" y="91.44"/>
-</segment>
-<segment>
 <wire x1="292.1" y1="132.08" x2="297.18" y2="132.08" width="0.1524" layer="91"/>
 <label x="297.18" y="132.08" size="1.778" layer="95"/>
 <pinref part="SV3" gate="1" pin="5"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="1" pin="5"/>
+<wire x1="269.24" y1="132.08" x2="264.16" y2="132.08" width="0.1524" layer="91"/>
+<label x="264.16" y="132.08" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="D1" class="0">
@@ -24520,6 +24538,11 @@ W = angled&lt;p&gt;
 <label x="297.18" y="137.16" size="1.778" layer="95"/>
 <pinref part="SV3" gate="1" pin="7"/>
 </segment>
+<segment>
+<pinref part="SV2" gate="1" pin="7"/>
+<wire x1="269.24" y1="137.16" x2="264.16" y2="137.16" width="0.1524" layer="91"/>
+<label x="264.16" y="137.16" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="LFT_JOY_LFT" class="0">
 <segment>
@@ -24536,6 +24559,11 @@ W = angled&lt;p&gt;
 <wire x1="292.1" y1="139.7" x2="297.18" y2="139.7" width="0.1524" layer="91"/>
 <label x="297.18" y="139.7" size="1.778" layer="95"/>
 <pinref part="SV3" gate="1" pin="8"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="1" pin="8"/>
+<wire x1="269.24" y1="139.7" x2="264.16" y2="139.7" width="0.1524" layer="91"/>
+<label x="264.16" y="139.7" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="LFT_JOY_DWN" class="0">
@@ -24554,6 +24582,11 @@ W = angled&lt;p&gt;
 <label x="297.18" y="142.24" size="1.778" layer="95"/>
 <pinref part="SV3" gate="1" pin="9"/>
 </segment>
+<segment>
+<pinref part="SV2" gate="1" pin="9"/>
+<wire x1="269.24" y1="142.24" x2="264.16" y2="142.24" width="0.1524" layer="91"/>
+<label x="264.16" y="142.24" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="LFT_JOY_UP" class="0">
 <segment>
@@ -24570,6 +24603,11 @@ W = angled&lt;p&gt;
 <wire x1="292.1" y1="144.78" x2="297.18" y2="144.78" width="0.1524" layer="91"/>
 <label x="297.18" y="144.78" size="1.778" layer="95"/>
 <pinref part="SV3" gate="1" pin="10"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="1" pin="10"/>
+<wire x1="269.24" y1="144.78" x2="264.16" y2="144.78" width="0.1524" layer="91"/>
+<label x="264.16" y="144.78" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="RGT_JOY_RGT" class="0">
@@ -24725,7 +24763,7 @@ W = angled&lt;p&gt;
 <wire x1="302.26" y1="63.5" x2="302.26" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="60.96" x2="309.88" y2="60.96" width="0.1524" layer="91"/>
 <junction x="302.26" y="60.96"/>
-<pinref part="PAD2" gate="G$1" pin="P"/>
+<pinref part="CVID" gate="G$1" pin="P"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -24766,7 +24804,7 @@ W = angled&lt;p&gt;
 <pinref part="C11" gate="G$1" pin="1"/>
 <junction x="208.28" y="22.86"/>
 <wire x1="208.28" y1="22.86" x2="208.28" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="PAD1" gate="G$1" pin="P"/>
+<pinref part="AUD" gate="G$1" pin="P"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -24959,6 +24997,11 @@ W = angled&lt;p&gt;
 <wire x1="292.1" y1="127" x2="297.18" y2="127" width="0.1524" layer="91"/>
 <label x="297.18" y="127" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SV2" gate="1" pin="3"/>
+<wire x1="269.24" y1="127" x2="264.16" y2="127" width="0.1524" layer="91"/>
+<label x="264.16" y="127" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="LFT_FIRE" class="0">
 <segment>
@@ -24975,6 +25018,11 @@ W = angled&lt;p&gt;
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="93.98" x2="193.04" y2="99.06" width="0.1524" layer="91"/>
 <label x="195.58" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="1" pin="4"/>
+<wire x1="269.24" y1="129.54" x2="264.16" y2="129.54" width="0.1524" layer="91"/>
+<label x="264.16" y="129.54" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>

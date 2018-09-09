@@ -23070,6 +23070,7 @@ W = angled&lt;p&gt;
 <part name="GND_A" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="2,54/1,1" package3d_urn="urn:adsk.eagle:package:30836/1" value="GND_A"/>
 <part name="GND_V" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="2,54/1,1" package3d_urn="urn:adsk.eagle:package:30836/1" value="GND_V"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23244,6 +23245,7 @@ W = angled&lt;p&gt;
 <instance part="GND_A" gate="G$1" x="330.2" y="55.88" rot="R180"/>
 <instance part="GND_V" gate="G$1" x="342.9" y="55.88" rot="R180"/>
 <instance part="GND7" gate="1" x="320.04" y="43.18" rot="MR0"/>
+<instance part="P+16" gate="1" x="299.72" y="124.46" rot="MR90"/>
 </instances>
 <busses>
 <bus name="DATA:D1,D2,D3,D4,D5,D6,D7,D8">
@@ -23540,6 +23542,11 @@ W = angled&lt;p&gt;
 <pinref part="R34" gate="G$1" pin="1"/>
 <pinref part="P+27" gate="1" pin="+5V"/>
 <wire x1="-162.56" y1="147.32" x2="-162.56" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SV3" gate="1" pin="2"/>
+<wire x1="292.1" y1="124.46" x2="297.18" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="P+16" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="N$6" class="0">
