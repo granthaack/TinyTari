@@ -23170,7 +23170,6 @@ please place it out of board.</text>
 <part name="CVID" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="2,54/1,1" package3d_urn="urn:adsk.eagle:package:30836/1" value="CVID"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R35" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="EVU" device="A" package3d_urn="urn:adsk.eagle:package:22730/1" technology="F2"/>
-<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND_A" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="2,54/1,1" package3d_urn="urn:adsk.eagle:package:30836/1" value="GND_A"/>
 <part name="GND_V" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="2,54/1,1" package3d_urn="urn:adsk.eagle:package:30836/1" value="GND_V"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -23404,7 +23403,6 @@ w/2A current</text>
 <instance part="CVID" gate="G$1" x="312.42" y="60.96" rot="R180"/>
 <instance part="GND3" gate="1" x="347.98" y="86.36" rot="MR0"/>
 <instance part="R35" gate="G$1" x="345.44" y="99.06" rot="R270"/>
-<instance part="GND5" gate="1" x="264.16" y="116.84" rot="MR0"/>
 <instance part="GND_A" gate="G$1" x="330.2" y="55.88" rot="R180"/>
 <instance part="GND_V" gate="G$1" x="342.9" y="55.88" rot="R180"/>
 <instance part="GND7" gate="1" x="320.04" y="43.18" rot="MR0"/>
@@ -25314,8 +25312,9 @@ w/2A current</text>
 </net>
 <net name="LFT_FIRE" class="0">
 <segment>
-<wire x1="292.1" y1="129.54" x2="297.18" y2="129.54" width="0.1524" layer="91"/>
 <label x="297.18" y="129.54" size="1.778" layer="95"/>
+<pinref part="S2" gate="G$1" pin="1"/>
+<wire x1="325.12" y1="119.38" x2="332.74" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
