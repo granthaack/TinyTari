@@ -297,10 +297,10 @@ OF AMERICA</text>
 <wire x1="0" y1="56.25" x2="0" y2="55.88" width="0.1524" layer="20"/>
 <wire x1="0" y1="55.88" x2="0" y2="5.25" width="0.1524" layer="20"/>
 <wire x1="0" y1="5.25" x2="0" y2="5" width="0.1524" layer="20"/>
-<wire x1="162.56" y1="63.754" x2="238.76" y2="63.754" width="0.1524" layer="51"/>
-<wire x1="238.76" y1="63.754" x2="238.76" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="238.76" y1="0.254" x2="162.56" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="162.56" y1="0.254" x2="162.56" y2="63.754" width="0.1524" layer="51"/>
+<wire x1="10.414" y1="64.77" x2="86.614" y2="64.77" width="0.1524" layer="51"/>
+<wire x1="86.614" y1="64.77" x2="86.614" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="86.614" y1="1.27" x2="10.414" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="10.414" y1="1.27" x2="10.414" y2="64.77" width="0.1524" layer="51"/>
 <wire x1="0" y1="55.88" x2="0" y2="56.25" width="0.1524" layer="20"/>
 <wire x1="0" y1="56.25" x2="0" y2="66.04" width="0.1524" layer="20"/>
 <wire x1="98" y1="57" x2="98" y2="66.25" width="0.1524" layer="20"/>
@@ -310,10 +310,12 @@ OF AMERICA</text>
 <wire x1="0" y1="0" x2="6.25" y2="0" width="0.1524" layer="20"/>
 <wire x1="93" y1="0" x2="98" y2="0" width="0.1524" layer="20"/>
 <wire x1="98" y1="0" x2="98" y2="5" width="0.1524" layer="20"/>
-<wire x1="162.56" y1="63.754" x2="238.76" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="238.76" y1="0.254" x2="162.56" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="162.56" y1="0.254" x2="238.76" y2="63.754" width="0.1524" layer="51"/>
-<text x="200.66" y="12.954" size="2.54" layer="51" font="vector" ratio="9" align="center">screen</text>
+<wire x1="10.414" y1="64.77" x2="86.614" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="86.614" y1="1.27" x2="10.414" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="10.414" y1="1.27" x2="86.614" y2="64.77" width="0.1524" layer="51"/>
+<text x="11.176" y="14.478" size="2.54" layer="51" font="vector" ratio="9" rot="R90" align="center">screen</text>
+<wire x1="6.096" y1="50.038" x2="91.948" y2="66.04" width="0.2032" layer="51"/>
+<wire x1="91.948" y1="50.038" x2="6.096" y2="66.04" width="0.2032" layer="51"/>
 </plain>
 <libraries>
 <library name="tiny_stella">
@@ -1572,55 +1574,39 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <rectangle x1="-2.65" y1="-1.625" x2="-1.925" y2="-1.075" layer="51"/>
 <rectangle x1="1.925" y1="-0.5" x2="2.625" y2="0.5" layer="51"/>
 </package>
-<package name="EVUF" urn="urn:adsk.eagle:footprint:22678/1" library_version="1">
-<description>&lt;b&gt;9 mm Square Rotary Potentiometers&lt;/b&gt; Vertical, Snap-in&lt;p&gt;
-Source: Panasonic</description>
-<wire x1="5.3" y1="1.05" x2="5.3" y2="-1.05" width="0" layer="46"/>
-<wire x1="3.7" y1="-1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
-<wire x1="5.3" y1="1.05" x2="3.7" y2="1.05" width="0" layer="46"/>
-<wire x1="5.3" y1="-1.05" x2="3.7" y2="-1.05" width="0" layer="46"/>
-<wire x1="-3.7" y1="1.05" x2="-3.7" y2="-1.05" width="0" layer="46"/>
-<wire x1="-5.3" y1="-1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
-<wire x1="-3.7" y1="1.05" x2="-5.3" y2="1.05" width="0" layer="46"/>
-<wire x1="-3.7" y1="-1.05" x2="-5.3" y2="-1.05" width="0" layer="46"/>
-<wire x1="-4.1" y1="5.4" x2="4.1" y2="5.4" width="0.2032" layer="21"/>
-<wire x1="4.65" y1="4.85" x2="4.65" y2="-5.35" width="0.2032" layer="51"/>
-<wire x1="4.1" y1="-5.9" x2="-4.1" y2="-5.9" width="0.2032" layer="21"/>
-<wire x1="-4.65" y1="-5.35" x2="-4.65" y2="4.85" width="0.2032" layer="51"/>
-<wire x1="-4.75" y1="0.9" x2="-5.5" y2="0.9" width="0.2032" layer="51"/>
-<wire x1="-5.5" y1="0.9" x2="-5.5" y2="-0.9" width="0.2032" layer="51"/>
-<wire x1="-5.5" y1="-0.9" x2="-4.75" y2="-0.9" width="0.2032" layer="51"/>
-<wire x1="4.75" y1="-0.9" x2="5.5" y2="-0.9" width="0.2032" layer="51"/>
-<wire x1="5.5" y1="-0.9" x2="5.5" y2="0.9" width="0.2032" layer="51"/>
-<wire x1="5.5" y1="0.9" x2="4.75" y2="0.9" width="0.2032" layer="51"/>
-<wire x1="-4.1" y1="4.85" x2="-4.65" y2="4.85" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="5.4" x2="-4.1" y2="4.85" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="-5.35" x2="-4.1" y2="-5.9" width="0.2032" layer="21"/>
-<wire x1="-4.65" y1="-5.35" x2="-4.1" y2="-5.35" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="-5.35" x2="4.65" y2="-5.35" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="-5.9" x2="4.1" y2="-5.35" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="4.85" x2="4.1" y2="5.4" width="0.2032" layer="21"/>
-<wire x1="4.65" y1="4.85" x2="4.1" y2="4.85" width="0.2032" layer="21"/>
-<wire x1="-4.65" y1="2.65" x2="-4.65" y2="4.85" width="0.2032" layer="21"/>
-<wire x1="-4.65" y1="-5.35" x2="-4.65" y2="-2.15" width="0.2032" layer="21"/>
-<wire x1="4.65" y1="4.85" x2="4.65" y2="2.65" width="0.2032" layer="21"/>
-<wire x1="4.65" y1="-2.15" x2="4.65" y2="-5.35" width="0.2032" layer="21"/>
-<circle x="-2.5" y="-4.6" radius="0.65" width="0.1016" layer="21"/>
-<circle x="2.5" y="-4.6" radius="0.65" width="0.1016" layer="21"/>
-<circle x="-2.5" y="4.3" radius="0.65" width="0.1016" layer="21"/>
-<circle x="2.5" y="4.3" radius="0.65" width="0.1016" layer="21"/>
-<circle x="0" y="0" radius="2.9" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="2.3501" width="0.2032" layer="21"/>
-<pad name="1" x="-2.5" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
-<pad name="2" x="0" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
-<pad name="3" x="2.5" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
-<pad name="M1" x="4.5" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
-<pad name="M2" x="-4.5" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
-<text x="-3" y="6" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.5" y="-9.5" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.925" y1="-7.325" x2="-2.075" y2="-6" layer="51"/>
-<rectangle x1="-0.425" y1="-7.325" x2="0.425" y2="-6" layer="51"/>
-<rectangle x1="2.075" y1="-7.325" x2="2.925" y2="-6" layer="51"/>
+<package name="S64W" urn="urn:adsk.eagle:footprint:22652/1" library_version="1">
+<description>&lt;b&gt;POTENTIOMETER&lt;/b&gt;&lt;p&gt;
+Spectrol</description>
+<wire x1="-4.826" y1="-1.27" x2="4.826" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="0.508" x2="3.048" y2="-0.508" width="0.3048" layer="21"/>
+<wire x1="-4.826" y1="3.81" x2="4.826" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="4.826" y1="3.81" x2="4.826" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-4.826" y1="-1.27" x2="-4.826" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="0" x2="-2.413" y2="0" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="0" x2="-2.159" y2="-0.127" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="0" x2="-2.159" y2="0.127" width="0.1524" layer="51"/>
+<wire x1="-2.286" y1="-0.254" x2="-2.286" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-2.286" y1="-0.254" x2="-2.413" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-2.286" y1="0.254" x2="-2.413" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="-2.159" y1="-0.127" x2="-2.159" y2="0.127" width="0.1524" layer="51"/>
+<wire x1="-2.159" y1="-0.127" x2="-2.286" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-2.159" y1="0.127" x2="-2.286" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="0" x2="-2.413" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="-0.381" x2="-2.413" y2="0" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-0.508" x2="-2.413" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="0.381" x2="-2.54" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="0.508" x2="-2.54" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="0" x2="-2.413" y2="0" width="0.1524" layer="51"/>
+<circle x="3.556" y="0" radius="0.889" width="0.1524" layer="51"/>
+<circle x="3.556" y="0" radius="0.635" width="0.0508" layer="21"/>
+<pad name="A" x="2.54" y="1.27" drill="0.8128" shape="long" rot="R90"/>
+<pad name="E" x="-2.54" y="1.27" drill="0.8128" shape="long" rot="R90"/>
+<pad name="S" x="0" y="1.27" drill="0.8128" shape="long" rot="R90"/>
+<text x="-4.826" y="4.1402" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-4.8006" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.445" y="1.905" size="1.27" layer="21" ratio="10">3</text>
+<text x="3.556" y="1.905" size="1.27" layer="21" ratio="10">1</text>
+<text x="-1.905" y="-0.635" size="1.27" layer="51" ratio="10">3</text>
 </package>
 </packages>
 <packages3d>
@@ -1631,11 +1617,11 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <packageinstance name="3223G"/>
 </packageinstances>
 </package3d>
-<package3d name="EVUF" urn="urn:adsk.eagle:package:22730/1" type="box" library_version="1">
-<description>9 mm Square Rotary Potentiometers Vertical, Snap-in
-Source: Panasonic</description>
+<package3d name="S64W" urn="urn:adsk.eagle:package:22708/1" type="box" library_version="1">
+<description>POTENTIOMETER
+Spectrol</description>
 <packageinstances>
-<packageinstance name="EVUF"/>
+<packageinstance name="S64W"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3141,7 +3127,7 @@ design rules under a new name.</description>
 </element>
 <element name="AUD" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,1" package3d_urn="urn:adsk.eagle:package:30836/1" value="AUD" x="16" y="4" rot="R90"/>
 <element name="CVID" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,1" package3d_urn="urn:adsk.eagle:package:30836/1" value="CVID" x="66" y="4" rot="R90"/>
-<element name="R35" library="pot" library_urn="urn:adsk.eagle:library:331" package="EVUF" package3d_urn="urn:adsk.eagle:package:22730/1" value="EVUF2A" x="91.778" y="10.746" rot="R270"/>
+<element name="R35" library="pot" library_urn="urn:adsk.eagle:library:331" package="S64W" package3d_urn="urn:adsk.eagle:package:22708/1" value="" x="91.778" y="10.746" rot="R270"/>
 <element name="GND_A" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,1" package3d_urn="urn:adsk.eagle:package:30836/1" value="GND_A" x="19" y="4" rot="R90"/>
 <element name="GND_V" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,1" package3d_urn="urn:adsk.eagle:package:30836/1" value="GND_V" x="63" y="4" rot="R90"/>
 <element name="U1" library="microbuilder" package="PVQFN-16" value="TPS61090RSAR" x="79.7648" y="38.1646" rot="MR180"/>
@@ -3463,7 +3449,7 @@ design rules under a new name.</description>
 <contactref element="R17" pad="2"/>
 <contactref element="S1" pad="GND"/>
 <contactref element="S2" pad="3"/>
-<contactref element="R35" pad="2"/>
+<contactref element="R35" pad="S"/>
 <contactref element="GND_A" pad="1"/>
 <contactref element="GND_V" pad="1"/>
 <contactref element="U1" pad="13"/>
@@ -3561,7 +3547,7 @@ design rules under a new name.</description>
 <wire x1="41.4276" y1="15.0012" x2="48.3618" y2="19.2786" width="0" layer="19" extent="16-16"/>
 <wire x1="40.5742" y1="6.207" x2="41.4276" y2="15.0012" width="0" layer="19" extent="16-16"/>
 <wire x1="77.8416" y1="15.5222" x2="68.0316" y2="15.5956" width="0" layer="19" extent="16-16"/>
-<wire x1="84.778" y1="10.746" x2="77.8416" y2="15.5222" width="0" layer="19" extent="16-16"/>
+<wire x1="93.048" y1="10.746" x2="77.8416" y2="15.5222" width="0" layer="19" extent="16-16"/>
 <wire x1="24.9654" y1="12.278" x2="41.4276" y2="15.0012" width="0" layer="19" extent="16-16"/>
 <wire x1="22.9364" y1="12.8626" x2="24.9654" y2="12.278" width="0" layer="19" extent="16-16"/>
 <wire x1="20.4218" y1="8.4836" x2="22.9364" y2="12.8626" width="0" layer="19" extent="16-16"/>
@@ -3599,7 +3585,7 @@ design rules under a new name.</description>
 <signal name="LFT_PADDLE_A">
 <contactref element="TIA" pad="39"/>
 <contactref element="C8" pad="1"/>
-<contactref element="R35" pad="1"/>
+<contactref element="R35" pad="A"/>
 <wire x1="68.1952" y1="11.92625" x2="68.37375" y2="12.1048" width="0.2032" layer="16"/>
 <wire x1="63.6018" y1="8.4836" x2="64.1164" y2="8.4836" width="0.2032" layer="16"/>
 <wire x1="64.1164" y1="8.4836" x2="65.742" y2="10.1092" width="0.2032" layer="16"/>
@@ -3608,7 +3594,7 @@ design rules under a new name.</description>
 <wire x1="76.3242" y1="12.1048" x2="77.8416" y2="13.6222" width="0.2032" layer="16"/>
 <wire x1="68.37375" y1="12.1048" x2="76.3242" y2="12.1048" width="0.2032" layer="16"/>
 <wire x1="78.0956" y1="13.3682" x2="84.6558" y2="13.3682" width="0.2032" layer="16"/>
-<wire x1="84.6558" y1="13.3682" x2="84.778" y2="13.246" width="0.2032" layer="16"/>
+<wire x1="84.6558" y1="13.3682" x2="93.048" y2="8.206" width="0.2032" layer="16"/>
 <wire x1="77.8416" y1="13.6222" x2="78.0956" y2="13.3682" width="0.2032" layer="16"/>
 </signal>
 <signal name="LFT_PADDLE_B">

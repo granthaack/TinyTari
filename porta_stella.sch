@@ -13565,73 +13565,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
-<package name="JOYSTICK_MINI" urn="urn:adsk.eagle:footprint:40092/1" library_version="1">
-<description>&lt;h3&gt;Small Tactile Joystick w/ Select Switch&lt;/h3&gt;
-&lt;p&gt;A 5-way tactile switch allows for a joystick-like interface in a very small package.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.sparkfun.com/datasheets/Components/Buttons/SF303GJ26-3.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<smd name="A" x="-3.325" y="1.4" dx="1.85" dy="1.1" layer="1"/>
-<smd name="B" x="3.325" y="1.4" dx="1.85" dy="1.1" layer="1"/>
-<smd name="C" x="-3.325" y="-1.4" dx="1.85" dy="1.1" layer="1"/>
-<smd name="CTR" x="-3.325" y="0" dx="1.85" dy="1.1" layer="1"/>
-<smd name="D" x="3.325" y="-1.4" dx="1.85" dy="1.1" layer="1"/>
-<smd name="GND" x="3.325" y="0" dx="1.85" dy="1.1" layer="1"/>
-<smd name="NC" x="0" y="4.13" dx="1.9" dy="2" layer="1"/>
-<smd name="NC@0" x="0" y="-4.13" dx="1.9" dy="2" layer="1"/>
-<hole x="0" y="1.9" drill="0.75"/>
-<hole x="0" y="-1.9" drill="1.05"/>
-<wire x1="-2.65" y1="-3.627" x2="-3.777" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="-3.777" y1="2.5" x2="-2.65" y2="3.627" width="0.2032" layer="21"/>
-<wire x1="-2.65" y1="3.627" x2="-1.127" y2="3.627" width="0.2032" layer="21"/>
-<wire x1="1.127" y1="3.627" x2="2.65" y2="3.627" width="0.2032" layer="21"/>
-<wire x1="2.65" y1="3.627" x2="3.777" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="3.777" y1="-2.5" x2="2.65" y2="-3.627" width="0.2032" layer="21"/>
-<wire x1="-1.046446875" y1="-0.353553125" x2="-0.353553125" y2="-1.046446875" width="0.2032" layer="21"/>
-<wire x1="-0.353553125" y1="-1.046446875" x2="0.353553125" y2="-1.046446875" width="0.2032" layer="21" curve="90"/>
-<wire x1="0.353553125" y1="-1.046446875" x2="1.046446875" y2="-0.353553125" width="0.2032" layer="21"/>
-<wire x1="1.046446875" y1="-0.353553125" x2="1.046446875" y2="0.353553125" width="0.2032" layer="21" curve="90"/>
-<wire x1="1.046446875" y1="0.353553125" x2="0.353553125" y2="1.046446875" width="0.2032" layer="21"/>
-<wire x1="0.353553125" y1="1.046446875" x2="-0.353553125" y2="1.046446875" width="0.2032" layer="21" curve="90"/>
-<wire x1="-0.353553125" y1="1.046446875" x2="-1.046446875" y2="0.353553125" width="0.2032" layer="21"/>
-<wire x1="-1.046446875" y1="0.353553125" x2="-1.046446875" y2="-0.353553125" width="0.2032" layer="21" curve="90"/>
-<wire x1="-1.3" y1="1.3" x2="-2.2" y2="2.2" width="0.2032" layer="21"/>
-<wire x1="-2.2" y1="2.2" x2="-1.6" y2="2.2" width="0.2032" layer="21"/>
-<wire x1="-2.2" y1="2.2" x2="-2.2" y2="1.6" width="0.2032" layer="21"/>
-<wire x1="2.65" y1="-3.5" x2="-2.65" y2="-3.5" width="0.2032" layer="51"/>
-<wire x1="-2.65" y1="-3.5" x2="-3.65" y2="-2.5" width="0.2032" layer="51"/>
-<wire x1="-3.65" y1="-2.5" x2="-3.65" y2="2.5" width="0.2032" layer="51"/>
-<wire x1="-3.65" y1="2.5" x2="-2.65" y2="3.5" width="0.2032" layer="51"/>
-<wire x1="-2.65" y1="3.5" x2="-1" y2="3.5" width="0.2032" layer="51"/>
-<wire x1="1" y1="3.5" x2="2.65" y2="3.5" width="0.2032" layer="51"/>
-<wire x1="2.65" y1="3.5" x2="3.65" y2="2.5" width="0.2032" layer="51"/>
-<wire x1="3.65" y1="2.5" x2="3.65" y2="-2.5" width="0.2032" layer="51"/>
-<wire x1="3.65" y1="-2.5" x2="2.65" y2="-3.5" width="0.2032" layer="51"/>
-<wire x1="-1.046446875" y1="-0.353553125" x2="-0.353553125" y2="-1.046446875" width="0.2032" layer="51"/>
-<wire x1="-0.353553125" y1="-1.046446875" x2="0.353553125" y2="-1.046446875" width="0.2032" layer="51" curve="90"/>
-<wire x1="0.353553125" y1="-1.046446875" x2="1.046446875" y2="-0.353553125" width="0.2032" layer="51"/>
-<wire x1="1.046446875" y1="-0.353553125" x2="1.046446875" y2="0.353553125" width="0.2032" layer="51" curve="90"/>
-<wire x1="1.046446875" y1="0.353553125" x2="0.353553125" y2="1.046446875" width="0.2032" layer="51"/>
-<wire x1="0.353553125" y1="1.046446875" x2="-0.353553125" y2="1.046446875" width="0.2032" layer="51" curve="90"/>
-<wire x1="-0.353553125" y1="1.046446875" x2="-1.046446875" y2="0.353553125" width="0.2032" layer="51"/>
-<wire x1="-1.046446875" y1="0.353553125" x2="-1.046446875" y2="-0.353553125" width="0.2032" layer="51" curve="90"/>
-<wire x1="0" y1="2.5" x2="1" y2="3.5" width="0.2032" layer="51"/>
-<wire x1="0" y1="2.5" x2="-1" y2="3.5" width="0.2032" layer="51"/>
-<wire x1="-1.3" y1="1.3" x2="-2.2" y2="2.2" width="0.2032" layer="51"/>
-<wire x1="-2.2" y1="2.2" x2="-1.6" y2="2.2" width="0.2032" layer="51"/>
-<wire x1="-2.2" y1="2.2" x2="-2.2" y2="1.6" width="0.2032" layer="51"/>
-<wire x1="-1" y1="3.5" x2="1" y2="3.5" width="0.2032" layer="51"/>
-<wire x1="-3.777" y1="-2.5" x2="-3.777" y2="-2.199" width="0.2032" layer="21"/>
-<wire x1="-3.777" y1="2.199" x2="-3.777" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="3.777" y1="-2.199" x2="3.777" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="3.777" y1="2.5" x2="3.777" y2="2.199" width="0.2032" layer="21"/>
-<wire x1="-1.127" y1="-3.627" x2="-2.65" y2="-3.627" width="0.2032" layer="21"/>
-<wire x1="2.65" y1="-3.627" x2="1.127" y2="-3.627" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1.5" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1.5" width="0.2032" layer="51"/>
-<text x="-2.9" y="1.9" size="0.8128" layer="21" ratio="20" rot="SR45">UP</text>
-<text x="-2.9" y="1.9" size="0.8128" layer="51" ratio="20" rot="SR45">UP</text>
-<text x="-3.302" y="3.175" size="0.6096" layer="25" font="vector" ratio="20" rot="R45" align="bottom-center">&gt;Name</text>
-<text x="3.302" y="-3.048" size="0.6096" layer="27" font="vector" ratio="20" rot="R45" align="top-center">&gt;Value</text>
-</package>
 </packages>
 <packages3d>
 <package3d name="TACTILE_SWITCH_SMD_6.0X3.5MM" urn="urn:adsk.eagle:package:40165/1" type="box" library_version="1">
@@ -13722,14 +13655,6 @@ Datasheet</description>
 <packageinstance name="TACTILE_SWITCH_SMD_4.6X2.8MM"/>
 </packageinstances>
 </package3d>
-<package3d name="JOYSTICK_MINI" urn="urn:adsk.eagle:package:40157/1" type="box" library_version="1">
-<description>Small Tactile Joystick w/ Select Switch
-A 5-way tactile switch allows for a joystick-like interface in a very small package.
-Datasheet</description>
-<packageinstances>
-<packageinstance name="JOYSTICK_MINI"/>
-</packageinstances>
-</package3d>
 </packages3d>
 <symbols>
 <symbol name="SWITCH-MOMENTARY-2" urn="urn:adsk.eagle:symbol:40102/1" library_version="1">
@@ -13743,22 +13668,6 @@ Datasheet</description>
 <text x="0" y="-0.508" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="2"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-<symbol name="JOYSTICK_MINI" urn="urn:adsk.eagle:symbol:40091/1" library_version="1">
-<description>&lt;h3&gt;Small Tactile Joystick w/ Select Switch&lt;/h3&gt;
-&lt;p&gt;A 5-way tactile switch allows for a joystick-like interface in a very small package.&lt;/p&gt;</description>
-<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
-<text x="-10.16" y="-5.334" size="1.778" layer="96" font="vector" align="top-left">&gt;Value</text>
-<text x="-10.16" y="5.334" size="1.778" layer="95" font="vector">&gt;Name</text>
-<pin name="CENT" x="12.7" y="-2.54" length="short" rot="R180"/>
-<pin name="DOWN" x="-12.7" y="0" length="short"/>
-<pin name="GND" x="-12.7" y="-2.54" length="short"/>
-<pin name="LEFT" x="12.7" y="2.54" length="short" rot="R180"/>
-<pin name="RIGHT" x="12.7" y="0" length="short" rot="R180"/>
-<pin name="UP" x="-12.7" y="2.54" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -13970,41 +13879,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="SWCH-13065"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="JOYSTICK_MINI" urn="urn:adsk.eagle:component:40199/1" prefix="S" uservalue="yes" library_version="1">
-<description>&lt;h3&gt;Small Tactile Joystick w/ Select Switch&lt;/h3&gt;
-&lt;p&gt;A 5-way tactile switch allows for a joystick-like interface in a very small package.&lt;/p&gt;
-&lt;p&gt;Part #: 4UCON SF303GJ26&lt;/p&gt;
-&lt;h4&gt;SparkFun Products&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10063"&gt;5-way Tactile Switch&lt;/a&gt; (COM-10063)&lt;/li&gt;
-&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/13035"&gt;SparkFun Block for Intel® Edison - OLED&lt;/a&gt; (DEV-13035)&lt;/li&gt;
-&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/13262"&gt;CAN-BUS Shield&lt;/a&gt; (DEV-13262)&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="JOYSTICK_MINI" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="JOYSTICK_MINI">
-<connects>
-<connect gate="G$1" pin="CENT" pad="CTR"/>
-<connect gate="G$1" pin="DOWN" pad="D"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="LEFT" pad="C"/>
-<connect gate="G$1" pin="RIGHT" pad="B"/>
-<connect gate="G$1" pin="UP" pad="A"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40157/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-09905"/>
-<attribute name="SF_SKU" value="COM-10063"/>
 </technology>
 </technologies>
 </device>
@@ -22547,7 +22421,6 @@ please place it out of board.</text>
 <part name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="1k"/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="T4" library="User-Submitted" library_urn="urn:adsk.eagle:library:536" deviceset="TRANSISTOR_PNP" device="PMBT3906" package3d_urn="urn:adsk.eagle:package:40256/1" value="PN3906"/>
-<part name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="JOYSTICK_MINI" device="" package3d_urn="urn:adsk.eagle:package:40157/1"/>
 <part name="S2" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2MM" package3d_urn="urn:adsk.eagle:package:40167/1" value="L_FIRE"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -22781,7 +22654,6 @@ w/2A current</text>
 <instance part="R17" gate="G$1" x="264.16" y="43.18" rot="MR270"/>
 <instance part="GND38" gate="1" x="264.16" y="33.02" rot="MR0"/>
 <instance part="T4" gate="G$1" x="261.62" y="55.88"/>
-<instance part="S1" gate="G$1" x="264.16" y="106.68"/>
 <instance part="S2" gate="G$1" x="337.82" y="119.38"/>
 <instance part="GND6" gate="1" x="248.92" y="99.06" rot="MR0"/>
 <instance part="GND40" gate="1" x="347.98" y="114.3" rot="MR0"/>
@@ -22857,7 +22729,7 @@ w/2A current</text>
 <instance part="GND45" gate="1" x="-152.4" y="-50.8"/>
 <instance part="ON/OFF1" gate="G$1" x="-154.94" y="73.66" rot="MR0"/>
 <instance part="J1" gate="G$1" x="312.42" y="17.78"/>
-<instance part="U$5" gate="G$1" x="264.16" y="124.46"/>
+<instance part="U$5" gate="G$1" x="266.7" y="106.68"/>
 </instances>
 <busses>
 <bus name="DATA:D1,D2,D3,D4,D5,D6,D7,D8">
@@ -23356,10 +23228,10 @@ w/2A current</text>
 <pinref part="GND38" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="S1" gate="G$1" pin="GND"/>
 <wire x1="251.46" y1="104.14" x2="248.92" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="248.92" y1="104.14" x2="248.92" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="S2" gate="G$1" pin="2"/>
@@ -24207,9 +24079,9 @@ w/2A current</text>
 <label x="66.04" y="2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="276.86" y1="106.68" x2="281.94" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="106.68" x2="281.94" y2="106.68" width="0.1524" layer="91"/>
 <label x="281.94" y="106.68" size="1.778" layer="95"/>
-<pinref part="S1" gate="G$1" pin="RIGHT"/>
+<pinref part="U$5" gate="G$1" pin="D-R"/>
 </segment>
 <segment>
 <wire x1="292.1" y1="137.16" x2="297.18" y2="137.16" width="0.1524" layer="91"/>
@@ -24223,9 +24095,9 @@ w/2A current</text>
 <label x="66.04" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="276.86" y1="109.22" x2="281.94" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="109.22" x2="281.94" y2="109.22" width="0.1524" layer="91"/>
 <label x="281.94" y="109.22" size="1.778" layer="95"/>
-<pinref part="S1" gate="G$1" pin="LEFT"/>
+<pinref part="U$5" gate="G$1" pin="B-L"/>
 </segment>
 <segment>
 <wire x1="292.1" y1="139.7" x2="297.18" y2="139.7" width="0.1524" layer="91"/>
@@ -24241,7 +24113,7 @@ w/2A current</text>
 <segment>
 <wire x1="251.46" y1="106.68" x2="246.38" y2="106.68" width="0.1524" layer="91"/>
 <label x="246.38" y="106.68" size="1.778" layer="95" rot="R180"/>
-<pinref part="S1" gate="G$1" pin="DOWN"/>
+<pinref part="U$5" gate="G$1" pin="C-D"/>
 </segment>
 <segment>
 <wire x1="292.1" y1="142.24" x2="297.18" y2="142.24" width="0.1524" layer="91"/>
@@ -24257,7 +24129,7 @@ w/2A current</text>
 <segment>
 <wire x1="251.46" y1="109.22" x2="246.38" y2="109.22" width="0.1524" layer="91"/>
 <label x="246.38" y="109.22" size="1.778" layer="95" rot="R180"/>
-<pinref part="S1" gate="G$1" pin="UP"/>
+<pinref part="U$5" gate="G$1" pin="A-U"/>
 </segment>
 <segment>
 <wire x1="292.1" y1="144.78" x2="297.18" y2="144.78" width="0.1524" layer="91"/>
