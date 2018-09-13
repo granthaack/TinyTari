@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -163,6 +163,23 @@
 <text x="-25.908" y="-6.604" size="1.778" layer="25" font="vector" ratio="20" rot="R90">&gt;NAME</text>
 <text x="-17.145" y="-1.016" size="1.778" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="JS5208_PKG">
+<smd name="A-U" x="7.5" y="4" dx="2" dy="1.9" layer="1"/>
+<smd name="D-R" x="7.5" y="0" dx="2" dy="1.9" layer="1"/>
+<smd name="C-D" x="7.5" y="-4" dx="2" dy="1.9" layer="1"/>
+<smd name="COM" x="-7.5" y="4" dx="2" dy="1.9" layer="1"/>
+<smd name="B-L" x="-7.5" y="0" dx="2" dy="1.9" layer="1"/>
+<smd name="E-BTN" x="-7.5" y="-4" dx="2" dy="1.9" layer="1"/>
+<hole x="-3.5" y="-6" drill="3.2"/>
+<hole x="3.5" y="-6" drill="3.2"/>
+<hole x="0" y="6" drill="3.2"/>
+<hole x="-3" y="-3" drill="2"/>
+<hole x="3" y="3" drill="2"/>
+<wire x1="-6.25" y1="6.25" x2="6.25" y2="6.25" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="6.25" x2="-6.25" y2="-6.25" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="-6.25" x2="6.25" y2="-6.25" width="0.127" layer="21"/>
+<wire x1="6.25" y1="-6.25" x2="6.25" y2="6.25" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TIA">
@@ -252,52 +269,90 @@ TIA</text>
 6507</text>
 </symbol>
 <symbol name="6532">
-<pin name="VSS" x="-50.8" y="-99.06" length="middle" rot="R270"/>
-<pin name="A5" x="-68.58" y="-15.24" length="middle"/>
-<pin name="A4" x="-68.58" y="-10.16" length="middle"/>
-<pin name="A3" x="-68.58" y="-5.08" length="middle"/>
-<pin name="A2" x="-68.58" y="0" length="middle"/>
-<pin name="A1" x="-68.58" y="5.08" length="middle"/>
-<pin name="A0" x="-68.58" y="10.16" length="middle"/>
-<pin name="PA0" x="-33.02" y="-35.56" length="middle" rot="R180"/>
-<pin name="PA1" x="-33.02" y="-40.64" length="middle" rot="R180"/>
-<pin name="PA2" x="-33.02" y="-45.72" length="middle" rot="R180"/>
-<pin name="PA3" x="-33.02" y="-50.8" length="middle" rot="R180"/>
-<pin name="PA4" x="-33.02" y="-55.88" length="middle" rot="R180"/>
-<pin name="PA5" x="-33.02" y="-60.96" length="middle" rot="R180"/>
-<pin name="PA6" x="-33.02" y="-66.04" length="middle" rot="R180"/>
-<pin name="PA7" x="-33.02" y="-71.12" length="middle" rot="R180"/>
-<pin name="PB7" x="-33.02" y="-25.4" length="middle" rot="R180"/>
-<pin name="PB6" x="-33.02" y="-20.32" length="middle" rot="R180"/>
-<pin name="PB5" x="-33.02" y="-15.24" length="middle" rot="R180"/>
-<pin name="PB4" x="-33.02" y="-10.16" length="middle" rot="R180"/>
-<pin name="VCC" x="-50.8" y="12.7" length="middle" rot="R90"/>
-<pin name="PB3" x="-33.02" y="-5.08" length="middle" rot="R180"/>
-<pin name="PB2" x="-33.02" y="0" length="middle" rot="R180"/>
-<pin name="PB1" x="-33.02" y="5.08" length="middle" rot="R180"/>
-<pin name="PB0" x="-33.02" y="10.16" length="middle" rot="R180"/>
-<pin name="!IRQ" x="-68.58" y="-96.52" length="middle"/>
-<pin name="D7" x="-68.58" y="-86.36" length="middle"/>
-<pin name="D6" x="-68.58" y="-81.28" length="middle"/>
-<pin name="D5" x="-68.58" y="-76.2" length="middle"/>
-<pin name="D4" x="-68.58" y="-71.12" length="middle"/>
-<pin name="D3" x="-68.58" y="-66.04" length="middle"/>
-<pin name="D2" x="-68.58" y="-60.96" length="middle"/>
-<pin name="D1" x="-68.58" y="-55.88" length="middle"/>
-<pin name="D0" x="-68.58" y="-50.8" length="middle"/>
-<pin name="!RESET" x="-33.02" y="-96.52" length="middle" rot="R180"/>
-<pin name="R/W" x="-33.02" y="-81.28" length="middle" rot="R180"/>
-<pin name="!RS" x="-68.58" y="-35.56" length="middle"/>
-<pin name="!CE" x="-68.58" y="-40.64" length="middle"/>
-<pin name="CE" x="-68.58" y="-30.48" length="middle"/>
-<pin name="CLK" x="-33.02" y="-86.36" length="middle" rot="R180"/>
-<pin name="A6" x="-68.58" y="-20.32" length="middle"/>
-<text x="-50.8" y="-91.44" size="1.778" layer="94" align="center">MOS
+<pin name="VSS" x="0" y="-58.42" length="middle" rot="R270"/>
+<pin name="A5" x="-17.78" y="25.4" length="middle"/>
+<pin name="A4" x="-17.78" y="30.48" length="middle"/>
+<pin name="A3" x="-17.78" y="35.56" length="middle"/>
+<pin name="A2" x="-17.78" y="40.64" length="middle"/>
+<pin name="A1" x="-17.78" y="45.72" length="middle"/>
+<pin name="A0" x="-17.78" y="50.8" length="middle"/>
+<pin name="PA0" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="PA1" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="PA2" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="PA3" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="PA4" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="PA5" x="17.78" y="-20.32" length="middle" rot="R180"/>
+<pin name="PA6" x="17.78" y="-25.4" length="middle" rot="R180"/>
+<pin name="PA7" x="17.78" y="-30.48" length="middle" rot="R180"/>
+<pin name="PB7" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="PB6" x="17.78" y="20.32" length="middle" rot="R180"/>
+<pin name="PB5" x="17.78" y="25.4" length="middle" rot="R180"/>
+<pin name="PB4" x="17.78" y="30.48" length="middle" rot="R180"/>
+<pin name="VCC" x="0" y="53.34" length="middle" rot="R90"/>
+<pin name="PB3" x="17.78" y="35.56" length="middle" rot="R180"/>
+<pin name="PB2" x="17.78" y="40.64" length="middle" rot="R180"/>
+<pin name="PB1" x="17.78" y="45.72" length="middle" rot="R180"/>
+<pin name="PB0" x="17.78" y="50.8" length="middle" rot="R180"/>
+<pin name="!IRQ" x="-17.78" y="-55.88" length="middle"/>
+<pin name="D7" x="-17.78" y="-45.72" length="middle"/>
+<pin name="D6" x="-17.78" y="-40.64" length="middle"/>
+<pin name="D5" x="-17.78" y="-35.56" length="middle"/>
+<pin name="D4" x="-17.78" y="-30.48" length="middle"/>
+<pin name="D3" x="-17.78" y="-25.4" length="middle"/>
+<pin name="D2" x="-17.78" y="-20.32" length="middle"/>
+<pin name="D1" x="-17.78" y="-15.24" length="middle"/>
+<pin name="D0" x="-17.78" y="-10.16" length="middle"/>
+<pin name="!RESET" x="17.78" y="-55.88" length="middle" rot="R180"/>
+<pin name="R/W" x="17.78" y="-40.64" length="middle" rot="R180"/>
+<pin name="!RS" x="-17.78" y="5.08" length="middle"/>
+<pin name="!CE" x="-17.78" y="0" length="middle"/>
+<pin name="CE" x="-17.78" y="10.16" length="middle"/>
+<pin name="CLK" x="17.78" y="-45.72" length="middle" rot="R180"/>
+<pin name="A6" x="-17.78" y="20.32" length="middle"/>
+<text x="0" y="-50.8" size="1.778" layer="94" align="center">MOS
 6532 RIOT</text>
-<wire x1="-63.5" y1="12.7" x2="-63.5" y2="-99.06" width="0.254" layer="94"/>
-<wire x1="-63.5" y1="-99.06" x2="-38.1" y2="-99.06" width="0.254" layer="94"/>
-<wire x1="-38.1" y1="-99.06" x2="-38.1" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-63.5" y1="12.7" x2="-38.1" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="53.34" x2="-12.7" y2="-58.42" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-58.42" x2="12.7" y2="-58.42" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-58.42" x2="12.7" y2="53.34" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="53.34" x2="12.7" y2="53.34" width="0.254" layer="94"/>
+</symbol>
+<symbol name="74HC4050">
+<wire x1="-10.16" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="10.16" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-38.1" x2="-10.16" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-38.1" x2="-10.16" y2="20.32" width="0.254" layer="94"/>
+<pin name="VCC" x="2.54" y="25.4" length="middle" rot="R270"/>
+<pin name="1Y" x="15.24" y="15.24" length="middle" rot="R180"/>
+<pin name="1A" x="-15.24" y="15.24" length="middle"/>
+<pin name="2Y" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="2A" x="-15.24" y="10.16" length="middle"/>
+<pin name="3Y" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="3A" x="-15.24" y="5.08" length="middle"/>
+<pin name="VSS" x="-2.54" y="25.4" length="middle" rot="R270"/>
+<pin name="4A" x="-15.24" y="0" length="middle"/>
+<pin name="4Y" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="5A" x="-15.24" y="-5.08" length="middle"/>
+<pin name="5Y" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="NC1" x="-15.24" y="-20.32" length="middle" direction="nc"/>
+<pin name="6A" x="-15.24" y="-10.16" length="middle"/>
+<pin name="6Y" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="NC2" x="-15.24" y="-22.86" length="middle" direction="nc"/>
+<text x="0" y="-27.94" size="1.778" layer="95" align="center">74HC4050</text>
+<text x="0" y="-33.02" size="1.778" layer="95" align="center">High to Low
+Level Shifter</text>
+</symbol>
+<symbol name="JS5208_SYM">
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<pin name="A-U" x="-15.24" y="2.54" length="middle"/>
+<pin name="C-D" x="-15.24" y="0" length="middle"/>
+<pin name="GND" x="-15.24" y="-2.54" length="middle"/>
+<pin name="B-L" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="D-R" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="E-BTN" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<text x="-10.16" y="5.842" size="1.27" layer="95">JS5208</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -444,6 +499,26 @@ TIA</text>
 <connect gate="G$1" pin="SYNC" pad="2"/>
 <connect gate="G$1" pin="VCC" pad="20"/>
 <connect gate="G$1" pin="VSS" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JS5208">
+<gates>
+<gate name="G$1" symbol="JS5208_SYM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JS5208_PKG">
+<connects>
+<connect gate="G$1" pin="A-U" pad="A-U"/>
+<connect gate="G$1" pin="B-L" pad="B-L"/>
+<connect gate="G$1" pin="C-D" pad="C-D"/>
+<connect gate="G$1" pin="D-R" pad="D-R"/>
+<connect gate="G$1" pin="E-BTN" pad="E-BTN"/>
+<connect gate="G$1" pin="GND" pad="COM"/>
 </connects>
 <technologies>
 <technology name=""/>
