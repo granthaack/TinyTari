@@ -24561,16 +24561,6 @@ By Simon Plata</text>
 <wire x1="269.24" y1="-12.7" x2="269.24" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="T2" gate="G$1" pin="C"/>
-<pinref part="R25" gate="G$1" pin="1"/>
-<wire x1="269.24" y1="-22.86" x2="269.24" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="-25.4" x2="276.86" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="269.24" y="-25.4"/>
-<pinref part="CVID" gate="G$1" pin="P"/>
-</segment>
-</net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
@@ -25087,6 +25077,14 @@ By Simon Plata</text>
 <wire x1="236.22" y1="114.3" x2="241.3" y2="114.3" width="0.1524" layer="91"/>
 <label x="241.3" y="114.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="T2" gate="G$1" pin="C"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<wire x1="269.24" y1="-22.86" x2="269.24" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="-25.4" x2="276.86" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="269.24" y="-25.4"/>
+<pinref part="CVID" gate="G$1" pin="P"/>
+</segment>
 </net>
 <net name="AUD" class="0">
 <segment>
@@ -25105,25 +25103,18 @@ By Simon Plata</text>
 <label x="187.96" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="JACK_AUD_OUT_R" class="0">
+<net name="JACK_AUD_OUT" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="RING_SWITCH"/>
 <wire x1="236.22" y1="106.68" x2="241.3" y2="106.68" width="0.1524" layer="91"/>
-<label x="241.3" y="106.68" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="JACK_AUD_OUT_L" class="0">
-<segment>
 <pinref part="J2" gate="G$1" pin="TIP_SWITCH"/>
-<wire x1="236.22" y1="104.14" x2="241.3" y2="104.14" width="0.1524" layer="91"/>
 <label x="241.3" y="104.14" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
 <pinref part="AUD" gate="G$1" pin="P"/>
 <wire x1="274.32" y1="101.6" x2="274.32" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="104.14" x2="266.7" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="104.14" x2="241.3" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="104.14" x2="274.32" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="106.68" x2="241.3" y2="104.14" width="0.1524" layer="91"/>
+<junction x="241.3" y="104.14"/>
 </segment>
 </net>
 </nets>

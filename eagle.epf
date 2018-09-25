@@ -359,11 +359,7 @@ UsedLibraryUrn="urn:adsk.eagle:library:176"
 UsedLibraryUrn="urn:adsk.eagle:library:177"
 UsedLibrary="/home/grant/EAGLE/libraries/atmel_tiny24-44-84tiny48-88mega48-88-168-328.lbr"
 UsedLibrary="/home/grant/EAGLE/libraries/simple_clock.lbr"
-UsedLibrary="/home/grant/Downloads/eswitch_js5208.lbr"
 UsedLibrary="tiny_stella.lbr"
-UsedLibrary="/home/grant/Downloads/SJ-43516-SMT (1)/SJ-43516-SMT.lbr"
-UsedLibrary="/home/grant/Downloads/1977263-3.lbr"
-UsedLibrary="/home/grant/Downloads/E-Switch - JS5208.lbr"
 
 [Win_1]
 Type="Control Panel"

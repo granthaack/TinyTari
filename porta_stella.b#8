@@ -308,7 +308,6 @@
 <wire x1="79" y1="27" x2="82" y2="27" width="0.1524" layer="20"/>
 <wire x1="79" y1="7" x2="82" y2="7" width="0.1524" layer="20"/>
 <wire x1="78.994" y1="88.392" x2="78.994" y2="87.884" width="0.1524" layer="20"/>
-<wire x1="78.994" y1="1.524" x2="78.994" y2="1.9812" width="0.1524" layer="20"/>
 </plain>
 <libraries>
 <library name="tiny_stella">
@@ -3577,8 +3576,8 @@ design rules under a new name.</description>
 <polygon width="0.2032" layer="16">
 <vertex x="-2" y="-2"/>
 <vertex x="-2" y="92"/>
-<vertex x="79.73" y="92"/>
-<vertex x="79.73" y="-2"/>
+<vertex x="81" y="92"/>
+<vertex x="81" y="-2"/>
 </polygon>
 <wire x1="70.612" y1="67.7672" x2="71.0184" y2="67.3608" width="0.2032" layer="16"/>
 <wire x1="71.0184" y1="67.3608" x2="71.4248" y2="66.9544" width="0.2032" layer="16"/>
