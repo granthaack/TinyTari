@@ -10,3 +10,5 @@ R30 silkscreen obscured by Q1 outline
 C22 needs to be change to a 1210 part
 D1 too close to 6507 pins
 Add a +5V and GND to power the screen
+Paddle holes are too far apart
+
