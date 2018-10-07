@@ -1,0 +1,12 @@
+Color/BW text on wrong side
+MicroUSB text on wrong side
+MOS_6507 text on wrong side
+CHRGD and ON silkscreen is obscured
+Makers mark on wrong side
+JST connector way too small
+On/Off switch will be obscured by screen. Change to right angle or move. It's also reversed (down is on, up is off)
+T1 and T2 are too close together
+R30 silkscreen obscured by Q1 outline
+C22 needs to be change to a 1210 part
+D1 too close to 6507 pins
+

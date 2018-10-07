@@ -23060,7 +23060,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:29919/2" technology="MMBT3904LT1" value="2N3904"/>
 <part name="T2" library="User-Submitted" library_urn="urn:adsk.eagle:library:536" deviceset="TRANSISTOR_PNP" device="PMBT3906" package3d_urn="urn:adsk.eagle:package:40256/1" value="PN3906"/>
-<part name="BRT" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="3223G" package3d_urn="urn:adsk.eagle:package:22722/1" value="500k"/>
+<part name="BRT" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="3223G" package3d_urn="urn:adsk.eagle:package:22722/1" value="5k"/>
 <part name="R19" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="1k"/>
 <part name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="3.3k"/>
 <part name="R21" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="1k"/>
@@ -23075,7 +23075,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="100nF"/>
 <part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R26" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="18k"/>
-<part name="C11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="100nF"/>
+<part name="C11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="820pF"/>
 <part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="100nF"/>
 <part name="C15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:26137/1" value="100nF"/>
@@ -23200,6 +23200,8 @@ Source: http://www.osram.convergy.de/</description>
 <part name="VOL" library="tiny_stella" deviceset="3352P-1-103LF" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GOLD_ORB_SM1" library="tiny_stella" deviceset="OSHWLOGO" device="LOGO5MM"/>
+<part name="GND25" library="supply1" deviceset="GND" device=""/>
+<part name="GND27" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23217,7 +23219,6 @@ w/2A current</text>
 <text x="-271.78" y="-35.56" size="1.778" layer="97">RT1 = TBD, RT2 = TBD</text>
 <wire x1="-365.76" y1="-68.58" x2="-365.76" y2="33.02" width="0.1524" layer="94"/>
 <wire x1="-365.76" y1="127" x2="-205.74" y2="127" width="0.1524" layer="94"/>
-<wire x1="-205.74" y1="127" x2="-205.74" y2="-68.58" width="0.1524" layer="94"/>
 <wire x1="-205.74" y1="-68.58" x2="-365.76" y2="-68.58" width="0.1524" layer="94"/>
 <text x="-248.92" y="-66.04" size="1.778" layer="94">Battery and Power Circuitry
 Referenced from the Powerboost 1000
@@ -23231,7 +23232,7 @@ By Victor Trucco
 www.victortrucco.com</text>
 <wire x1="-205.74" y1="-68.58" x2="-205.74" y2="127" width="0.1524" layer="94"/>
 <wire x1="-205.74" y1="127" x2="205.74" y2="127" width="0.1524" layer="94"/>
-<wire x1="205.74" y1="127" x2="205.74" y2="-68.58" width="0.1524" layer="94"/>
+<wire x1="205.74" y1="127" x2="205.74" y2="12.7" width="0.1524" layer="94"/>
 <wire x1="205.74" y1="-68.58" x2="-205.74" y2="-68.58" width="0.1524" layer="94"/>
 <text x="-203.2" y="-66.04" size="1.778" layer="94">Atari 2600</text>
 <text x="210.82" y="-63.5" size="1.778" layer="94">Composite Video Amplifier
@@ -23240,6 +23241,9 @@ By Simon Plata</text>
 <wire x1="205.74" y1="12.7" x2="317.5" y2="12.7" width="0.1524" layer="94"/>
 <wire x1="317.5" y1="12.7" x2="317.5" y2="-68.58" width="0.1524" layer="94"/>
 <wire x1="317.5" y1="-68.58" x2="205.74" y2="-68.58" width="0.1524" layer="94"/>
+<wire x1="205.74" y1="127" x2="317.5" y2="127" width="0.1524" layer="94"/>
+<wire x1="317.5" y1="127" x2="317.5" y2="12.7" width="0.1524" layer="94"/>
+<text x="307.34" y="15.24" size="1.778" layer="94">Control</text>
 </plain>
 <instances>
 <instance part="TIA" gate="G$1" x="99.06" y="48.26" rot="MR0"/>
@@ -23466,6 +23470,8 @@ By Simon Plata</text>
 <instance part="VOL" gate="G$1" x="172.72" y="12.7" rot="R90"/>
 <instance part="GND24" gate="1" x="157.48" y="5.08"/>
 <instance part="GOLD_ORB_SM1" gate="G$1" x="297.18" y="-66.04"/>
+<instance part="GND25" gate="1" x="-218.44" y="-20.32"/>
+<instance part="GND27" gate="1" x="-218.44" y="0"/>
 </instances>
 <busses>
 <bus name="DATA:D1,D2,D3,D4,D5,D6,D7,D8">
@@ -24139,6 +24145,10 @@ By Simon Plata</text>
 <wire x1="233.68" y1="58.42" x2="226.06" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="226.06" y1="55.88" x2="226.06" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="58.42" x2="226.06" y2="73.66" width="0.1524" layer="91"/>
+<junction x="226.06" y="58.42"/>
+<pinref part="SW1" gate="G$0" pin="COMM."/>
+<wire x1="226.06" y1="73.66" x2="233.68" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND_A" gate="G$1" pin="P"/>
@@ -24155,6 +24165,18 @@ By Simon Plata</text>
 <wire x1="165.1" y1="12.7" x2="157.48" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="12.7" x2="157.48" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="GND24" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="-219.71" y1="-12.7" x2="-219.71" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="-219.71" y1="-17.78" x2="-218.44" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="GND25" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="4"/>
+<wire x1="-219.71" y1="-2.54" x2="-219.71" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-219.71" y1="2.54" x2="-218.44" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="GND27" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -24205,10 +24227,6 @@ By Simon Plata</text>
 <wire x1="215.9" y1="35.56" x2="215.9" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="190.5" y1="147.32" x2="195.58" y2="147.32" width="0.1524" layer="91"/>
-<label x="195.58" y="147.32" size="1.778" layer="95"/>
-</segment>
-<segment>
 <label x="220.98" y="43.18" size="1.778" layer="95" rot="R180"/>
 <wire x1="215.9" y1="40.64" x2="220.98" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="LFT_PADDLE" gate="G$1" pin="A"/>
@@ -24222,10 +24240,6 @@ By Simon Plata</text>
 <wire x1="129.54" y1="15.24" x2="124.46" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="15.24" x2="129.54" y2="15.24" width="0.1524" layer="91"/>
 <label x="129.54" y="15.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="190.5" y1="144.78" x2="195.58" y2="144.78" width="0.1524" layer="91"/>
-<label x="195.58" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D1" class="0">
@@ -24863,13 +24877,9 @@ By Simon Plata</text>
 <label x="15.24" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="190.5" y1="149.86" x2="195.58" y2="149.86" width="0.1524" layer="91"/>
-<label x="195.58" y="149.86" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="SW1" gate="G$0" pin="5"/>
-<wire x1="269.24" y1="66.04" x2="274.32" y2="66.04" width="0.1524" layer="91"/>
-<label x="274.32" y="66.04" size="1.778" layer="95"/>
+<wire x1="269.24" y1="66.04" x2="279.4" y2="66.04" width="0.1524" layer="91"/>
+<label x="279.4" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LFT_JOY_LFT" class="0">
@@ -24879,13 +24889,9 @@ By Simon Plata</text>
 <label x="15.24" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="190.5" y1="152.4" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
-<label x="195.58" y="152.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SW1" gate="G$0" pin="6"/>
-<wire x1="269.24" y1="73.66" x2="274.32" y2="73.66" width="0.1524" layer="91"/>
-<label x="274.32" y="73.66" size="1.778" layer="95"/>
+<pinref part="SW1" gate="G$0" pin="2"/>
+<wire x1="233.68" y1="66.04" x2="220.98" y2="66.04" width="0.1524" layer="91"/>
+<label x="223.52" y="66.04" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="LFT_JOY_DWN" class="0">
@@ -24895,13 +24901,9 @@ By Simon Plata</text>
 <label x="15.24" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="190.5" y1="154.94" x2="195.58" y2="154.94" width="0.1524" layer="91"/>
-<label x="195.58" y="154.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SW1" gate="G$0" pin="2"/>
-<wire x1="233.68" y1="66.04" x2="228.6" y2="66.04" width="0.1524" layer="91"/>
-<label x="228.6" y="66.04" size="1.778" layer="95" rot="R180"/>
+<pinref part="SW1" gate="G$0" pin="4"/>
+<wire x1="269.24" y1="58.42" x2="279.4" y2="58.42" width="0.1524" layer="91"/>
+<label x="279.4" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LFT_JOY_UP" class="0">
@@ -24911,13 +24913,9 @@ By Simon Plata</text>
 <label x="15.24" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="190.5" y1="157.48" x2="195.58" y2="157.48" width="0.1524" layer="91"/>
-<label x="195.58" y="157.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SW1" gate="G$0" pin="COMM."/>
-<wire x1="233.68" y1="73.66" x2="228.6" y2="73.66" width="0.1524" layer="91"/>
-<label x="228.6" y="73.66" size="1.778" layer="95" rot="R180"/>
+<pinref part="SW1" gate="G$0" pin="6"/>
+<wire x1="269.24" y1="73.66" x2="279.4" y2="73.66" width="0.1524" layer="91"/>
+<label x="279.4" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RGT_JOY_RGT" class="0">
@@ -24982,6 +24980,10 @@ By Simon Plata</text>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="-396.24" y1="104.14" x2="-391.16" y2="104.14" width="0.1524" layer="91"/>
 <junction x="-391.16" y="104.14"/>
+<pinref part="IC1" gate="C" pin="I0"/>
+<wire x1="-464.82" y1="71.12" x2="-464.82" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-464.82" y1="76.2" x2="-391.16" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-391.16" y1="76.2" x2="-391.16" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PHI_0" class="0">
@@ -25277,22 +25279,15 @@ By Simon Plata</text>
 <wire x1="-464.82" y1="111.76" x2="-424.18" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="-424.18" y1="111.76" x2="-408.94" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="-408.94" y1="111.76" x2="-408.94" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="-408.94" y1="104.14" x2="-403.86" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-408.94" y1="104.14" x2="-401.32" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="R33" gate="G$1" pin="1"/>
 <wire x1="-424.18" y1="109.22" x2="-424.18" y2="111.76" width="0.1524" layer="91"/>
 <junction x="-424.18" y="111.76"/>
-<wire x1="-424.18" y1="86.36" x2="-408.94" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-426.72" y1="86.36" x2="-408.94" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-408.94" y1="86.36" x2="-408.94" y2="104.14" width="0.1524" layer="91"/>
 <junction x="-408.94" y="104.14"/>
-<pinref part="IC1" gate="C" pin="I0"/>
-<wire x1="-464.82" y1="71.12" x2="-464.82" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-464.82" y1="76.2" x2="-403.86" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-403.86" y1="76.2" x2="-403.86" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="-426.72" y1="86.36" x2="-424.18" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="-401.32" y1="104.14" x2="-403.86" y2="104.14" width="0.1524" layer="91"/>
-<junction x="-403.86" y="104.14"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -25340,19 +25335,15 @@ By Simon Plata</text>
 <wire x1="-508" y1="83.82" x2="-515.62" y2="83.82" width="0.1524" layer="91"/>
 <junction x="-508" y="83.82"/>
 </segment>
-<segment>
-<wire x1="190.5" y1="139.7" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
-<label x="195.58" y="139.7" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="LFT_FIRE" class="0">
 <segment>
-<label x="195.58" y="142.24" size="1.778" layer="95"/>
 <wire x1="256.54" y1="38.1" x2="264.16" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="P$1"/>
 <junction x="264.16" y="38.1"/>
 <pinref part="U$7" gate="G$1" pin="P$2"/>
 <wire x1="274.32" y1="38.1" x2="264.16" y2="38.1" width="0.1524" layer="91"/>
+<label x="256.54" y="38.1" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
@@ -25568,12 +25559,6 @@ By Simon Plata</text>
 <pinref part="U2" gate="G$1" pin="PROG3"/>
 <pinref part="R47" gate="G$1" pin="2"/>
 <wire x1="-299.72" y1="-10.16" x2="-302.26" y2="-10.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$56" class="0">
-<segment>
-<pinref part="SW1" gate="G$0" pin="4"/>
-<wire x1="269.24" y1="58.42" x2="274.32" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CVID" class="0">
