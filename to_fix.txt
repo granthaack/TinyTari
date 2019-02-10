@@ -11,4 +11,5 @@ C22 needs to be change to a 1210 part
 D1 too close to 6507 pins
 Add a +5V and GND to power the screen
 Paddle holes are too far apart
-
+Audio source too weak, needs an amplifier before the 8k resistor (PAM8302)
+Lots of video noise when sound is loud. Experiment with coax? Better board placement?
